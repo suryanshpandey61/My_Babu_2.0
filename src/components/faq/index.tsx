@@ -8,7 +8,7 @@ import {
 
 function Faq() {
   return (
-    <div className="w-[100%]  lg:mt-[4%] md:mt-[5%] mt-[10%]  flex flex-col items-center justify-center">
+    <div id="faq" className="w-[100%]  lg:mt-[4%] md:mt-[5%] mt-[10%]  flex flex-col items-center justify-center">
       <div className="text-[36px] text-[#004016]  text-center font-semibold">
         Frequently Asked Questions
       </div>

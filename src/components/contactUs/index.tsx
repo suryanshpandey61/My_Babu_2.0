@@ -7,7 +7,7 @@ import bottomright from "../../assests/bottomRight.png";
 
 function ContactUs() {
   return (
-    <div>
+    <div id="contactus">
       {/* input form div  */}
       <div className="lg:w-[85%] md:w-[90%] w-[92%] mt-[10%] mx-auto bg-[#173E33] lg:mt-[4%] md:mt-[6%] rounded-xl">
         <div className="flex w-[80%] mx-auto justify-between">
