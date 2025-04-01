@@ -9,8 +9,8 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full">
-      <nav className="w-[85%] z-50 mt-[2%] p-[16px] rounded-[30px] h-[66px] items-center shadow-2xl flex justify-between mx-auto bg-white">
+    <div className="w-full ">
+      <nav className="lg:w-[85%] bg-[#F8FFFA] w-[99%] z-50 mt-[2%] p-[16px] rounded-[30px] h-[66px] items-center shadow-2xl flex justify-between mx-auto ">
         {/* Logo */}
         <div>
           <a href="#hero-section" className="text-xl font-bold text-gray-800">

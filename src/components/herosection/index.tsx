@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from 'next/image'
 import heroSectionUser from '../../assests/heroSectionUser.png'
 import rentAgreementImg from '../../assests/rentAgreementImg.png'
@@ -7,12 +7,13 @@ import dottedLineImg from '../../assests/dottedLineImg.png'
 import online from '../../assests/onlineApplicationImg.png'
 import call from '../../assests/call.png'
 import graph from '../../assests/graph.png'
+import blur from '../../assests/blur.png'
 function HeroSection() {
   return (
     <div 
     id='hero-section'
-    className='md:w-full w-[80%]  mx-auto'>
-        <div className='md:w-[70%] w-full ml-0 border border-black   justify-center  mt-[5%] mx-auto  gap-[20px] text-center '>
+    className='md:w-full w-[80%]  mx-auto overflow-hidden '>
+        <div className='md:w-[70%] w-full    justify-center  mt-[35px] md:mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold justify-center text-center text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
                 Government Paperwork
@@ -34,16 +35,24 @@ function HeroSection() {
                 alt='dooted-line-image'
                 className=' hidden absolute lg:flex mt-[2.5%]'
                 />
-                <Image 
+               <div className='flex flex-col  '>
+               <Image 
                 src={heroSectionUser} 
                 alt="User Image"
-                className='relative md:h-[410px] md:w-[410px] md:-right-[4%]'
+                style={{width:'410px',height:'410px'}}
+                className='relative   md:-mt-3 md:-right-[4%]'
                 />
+                 <Image 
+                src={blur} 
+                alt="Blur Image"
+                className='md:absolute   md:mt-[22%]'
+                />
+               </div>
                 <Image
                 src={rentAgreementImg}
                 alt='Rent Aggrement Image'
                 style={{height:'300px',width:'300px'}}
-                className='lg:mt-[3%] lg:right-[9.5%] md:ml-[9%] relative '
+                className='lg:mt-[3%] lg:right-[9.5%] md:ml-[9%] right-11  relative '
                 />
               </div>
         </div>
