@@ -1,5 +1,6 @@
 import HeroSection from "@/components/herosection";
 import Navbar from "@/components/navbar";
+import WhoWeAre from "@/components/whoWeAre";
 import Work from "@/components/works";
 import { Poppins } from "next/font/google";
 
@@ -14,6 +15,7 @@ export default function Home() {
      <Navbar/>
      {/* <HeroSection/> */}
      <Work/>
+     <WhoWeAre/>
     </div>
   );
 }
