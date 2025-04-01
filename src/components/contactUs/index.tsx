@@ -52,7 +52,7 @@ function ContactUs() {
             name=""
             id=""
             placeholder="Address"
-            className="bg-[#48C070]  lg:w-[65.5%]  md:w-[92.5%] w-[80%] md:mt-0 text-[24px] rounded-md p-1 text-white"
+            className="bg-[#48C070]  lg:w-[65.5%]  md:w-[92.5%] w-[80%] mt-2 md:mt-0 text-[24px] rounded-xl -ml-1 md:rounded-md p-1 text-white"
           />
           <Image
             src={bottomright}
@@ -60,7 +60,7 @@ function ContactUs() {
             className="lg:relative hidden md:flex -top-[40px]"
           />
         </div>
-        <div className="text-center pb-2">
+        <div className="text-center pt-2 pb-4">
           <button className="bg-[#45BF6F] text-white px-4 py-2 rounded-md hover:bg-green-600">
             Submit
           </button>
