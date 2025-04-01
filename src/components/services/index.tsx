@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import documentVerificationImg from "../../assests/DocumentAssistantImg.png";
 import processConsultatinImg from "../../assests/ProcessConsultationImg.png";
 import personalizedImg from "../../assests/PersonalizedSupportImg.png";
