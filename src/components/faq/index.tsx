@@ -8,11 +8,11 @@ import {
 
 function Faq() {
   return (
-    <div className="w-[100%]  lg:mt-[4%] mt-[5%]  flex flex-col items-center justify-center">
-      <div className="text-[36px] font-semibold">
+    <div className="w-[100%]  lg:mt-[4%] md:mt-[5%] mt-[10%]  flex flex-col items-center justify-center">
+      <div className="text-[36px] text-[#004016]  text-center font-semibold">
         Frequently Asked Questions
       </div>
-      <div className="lg:w-[60%] lg:mt-[2%] md:w-[90%] md:mt-[4%]">
+      <div className="lg:w-[60%] w-[85%] lg:mt-[2%] mt-[5%] md:w-[90%] md:mt-[4%]">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1" className="bg-[#C5ECFA] rounded-xl p-2">
             <AccordionTrigger className="text-[20px] text-[#004016]">
