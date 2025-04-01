@@ -1,3 +1,4 @@
+import Faq from "@/components/faq";
 import HeroSection from "@/components/herosection";
 import Navbar from "@/components/navbar";
 import Services from "@/components/services";
@@ -18,6 +19,7 @@ export default function Home() {
      <Work/>
      <WhoWeAre/>
      <Services/>
+     <Faq/>
     </div>
   );
 }
