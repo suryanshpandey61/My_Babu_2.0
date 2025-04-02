@@ -28,7 +28,7 @@ function HeroSection() {
                 src={jobsAvailablebtn}
                 alt='Jobs Available btn'
                 style={{width:'140px',height:'44px'}}
-                className='mt-[8%] left-[18%] relative lg:flex hidden'
+                className='mt-[5%] z-10 left-[18%] relative lg:flex hidden'
                 />
                 <Image
                 src={dottedLineImg}
