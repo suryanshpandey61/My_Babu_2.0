@@ -73,12 +73,12 @@ function Navbar() {
 
       {/* Mobile Menu (Dropdown) */}
       {isOpen && (
-        <div className="md:hidden w-[85%] mx-auto bg-white shadow-md rounded-lg p-4 absolute top-[66px] left-0 right-0 z-40">
+        <div className="md:hidden w-[95%] mx-auto bg-white shadow-md rounded-lg p-4 absolute top-[66px] left-0 right-0 z-40">
           <a href="#services" className="block py-2 text-center text-gray-800 hover:text-green-600">Services</a>
           <a href="#work" className="block py-2 text-gray-800 text-center hover:text-green-600">Work</a>
           <a href="#faq" className="block py-2 text-gray-800 text-center hover:text-green-600">FAQs</a>
           <a href="#contactus" className="block py-2 text-gray-800 text-center hover:text-green-600">Contact Us</a>
-          <button className="w-full bg-[#45BF6F] text-white px-4 text-center py-2 rounded-md hover:bg-green-600 mt-2">
+          <button className="mx-auto flex justify-center bg-[#45BF6F] text-white px-4 text-center py-2 rounded-md hover:bg-green-600 mt-2">
             Get Started
           </button>
         </div>
