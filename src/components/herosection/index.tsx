@@ -40,7 +40,7 @@ function HeroSection() {
                 src={heroSectionUser} 
                 alt="User Image"
                 style={{width:'410px',height:'410px'}}
-                className='relative   md:-mt-3 md:-right-[15%]'
+                className='relative   md:-mt-3 md:-right-[20%]'
                 />
                  <Image 
                 src={blur} 
@@ -52,7 +52,7 @@ function HeroSection() {
                 src={rentAgreementImg}
                 alt='Rent Aggrement Image'
                 style={{height:'300px',width:'300px'}}
-                className='lg:mt-[3%] lg:right-[9.5%] md:ml-[9%] right-11  relative '
+                className='lg:mt-[3%] lg:right-[12.5%] md:ml-[9%] right-11  relative '
                 />
               </div>
         </div>
