@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div 
     id='hero-section'
-    className='md:w-full w-[80%] border border-black mx-auto overflow-hidden '>
+    className='md:w-full w-[80%]  mx-auto overflow-hidden '>
         <div className='md:w-[70%] w-full    justify-center  mt-[35px] md:mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold justify-center text-center text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
@@ -39,8 +39,8 @@ function HeroSection() {
                <Image 
                 src={heroSectionUser} 
                 alt="User Image"
-                style={{width:'410px',height:'410px'}}
-                className='relative   md:-mt-3 md:-right-[20%]'
+                // style={{width:'410px',height:'410px'}}
+                className='relative md:w-[410px] md:h-[410px] w-[300px] md:-mt-3 md:-right-[20%]'
                 />
                  <Image 
                 src={blur} 
@@ -51,15 +51,15 @@ function HeroSection() {
                 <Image
                 src={rentAgreementImg}
                 alt='Rent Aggrement Image'
-                style={{height:'300px',width:'300px'}}
-                className='lg:mt-[3%] lg:right-[12.5%] md:ml-[9%] right-11  relative '
+                // style={{height:'300px',width:'300px'}}
+                className='lg:mt-[3%] lg:right-[12.5%] md:w-[300px]  md:h-[300px] md:ml-[9%] right-11 -mt-20  relative '
                 />
               </div>
         </div>
-        <div className='lg:w-[85%] w-[90%] mt-[5%] mx-auto flex gap-x-[10px]'>
-           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={online} alt='online-img'/>Online Application</button>
-           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={call} alt='online-img'/>24/7 Support</button>
-           <button className='flex bg-[#EFEFEF] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={graph} alt='online-img'/>Expedicted Processing</button>
+        <div className='lg:w-[85%] w-full  justify-start md:flex-row gap-y-4 flex-col md:mt-[5%] -mt-4 mx-auto flex gap-x-[10px]'>
+           <button className='flex bg-[#EFEFEF] w-[50%] md:w-[15%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={online} alt='online-img'/>Online Application</button>
+           <button className='flex bg-[#EFEFEF] w-[40%] md:w-[12%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={call} alt='online-img'/>24/7 Support</button>
+           <button className='flex bg-[#EFEFEF] w-[58%] md:w-[18%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={graph} alt='online-img'/>Expedicted Processing</button>
         </div>
     </div>
   )
