@@ -127,4 +127,14 @@ input:focus {
 html {
   scroll-behavior: smooth;
 }
-
+@media (min-width: 412px) {
+  .custom-xs {
+    width: 60%;
+  }
+  .twentyFour{
+    width: 50%;
+  }
+  .expectedProcessing{
+    width: 65%;
+  }
+}

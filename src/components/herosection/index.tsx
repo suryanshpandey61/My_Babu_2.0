@@ -45,7 +45,7 @@ function HeroSection() {
                  <Image 
                 src={blur} 
                 alt="Blur Image"
-                className='md:absolute w-[50%]   md:mt-[25%]'
+                className='lg:absolute hidden lg:flex  w-[50%]   md:mt-[25%]'
                 />
                </div>
                 <Image
@@ -56,10 +56,10 @@ function HeroSection() {
                 />
               </div>
         </div>
-        <div className='lg:w-[85%] w-full  justify-start md:flex-row gap-y-4 flex-col md:mt-[5%] -mt-4 mx-auto flex gap-x-[10px]'>
-           <button className='flex bg-[#EFEFEF] w-[50%] md:w-[15%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={online} alt='online-img'/>Online Application</button>
-           <button className='flex bg-[#EFEFEF] w-[40%] md:w-[12%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={call} alt='online-img'/>24/7 Support</button>
-           <button className='flex bg-[#EFEFEF] w-[58%] md:w-[18%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={graph} alt='online-img'/>Expedicted Processing</button>
+        <div className='md:w-[85%] w-[90%]  justify-start md:flex-row gap-y-4 flex-col md:mt-[5%] -mt-4 mx-auto flex gap-x-[10px]'>
+           <button className='flex bg-[#EFEFEF] lg:w-[15%] md:w-[25%] w-[60%]  text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={online} alt='online-img'/>Online Application</button>
+           <button className='flex bg-[#EFEFEF] lg:w-[12%] md:w-[22%] w-[50%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={call} alt='online-img'/>24/7 Support</button>
+           <button className='flex bg-[#EFEFEF] lg:w-[18%] md:w-[30%] w-[69%] text-[12px] text-[#004016] p-2 gap-x-[10px] rounded-xl items-center'><Image style={{height:'24px',width:'24px'}} src={graph} alt='online-img'/>Expedicted Processing</button>
         </div>
     </div>
   )
