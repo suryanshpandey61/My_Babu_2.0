@@ -45,19 +45,19 @@ function ContactUs() {
           <Image
             src={bottomleft}
             alt="bottom-left-gradient"
-            className="lg:relative hidden md:flex -top-[40px]"
+            className="lg:relative hidden md:hidden  lg:flex -top-[40px]"
           />
           <input
             type="text"
             name=""
             id=""
             placeholder="Address"
-            className="bg-[#48C070]  lg:w-[65.5%]  md:w-[92.5%] w-[80%] mt-2 md:mt-0 text-[24px] rounded-xl -ml-1 md:rounded-md p-1 text-white"
+            className="bg-[#48C070] lg:ml-1 lg:w-[66.5%]  md:w-[88.5%] md:mt-1 w-[80%] mt-2  text-[24px] rounded-xl -ml-1 md:rounded-md p-1 text-white"
           />
           <Image
             src={bottomright}
             alt="bottom-right-gradient"
-            className="lg:relative hidden md:flex -top-[40px]"
+            className="lg:relative md:hidden hidden lg:flex -top-[40px]"
           />
         </div>
         <div className="text-center pt-2 pb-4">

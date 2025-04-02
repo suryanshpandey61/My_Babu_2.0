@@ -52,7 +52,7 @@ function HeroSection() {
                 src={rentAgreementImg}
                 alt='Rent Aggrement Image'
                 // style={{height:'300px',width:'300px'}}
-                className='lg:mt-[3%] lg:right-[12.5%] lg:w-[300px] lg:h-[300px] md:w-[400px]  md:h-[400px] md:ml-[9%] right-11 -mt-20  relative '
+                className='lg:mt-[3%] lg:right-[12.5%] lg:w-[300px]  lg:h-[300px] md:w-[400px]  md:h-[400px] md:ml-[9%] right-11 -mt-15  relative '
                 />
               </div>
         </div>
