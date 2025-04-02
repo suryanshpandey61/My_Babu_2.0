@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div 
     id='hero-section'
-    className='md:w-full w-[80%]  mx-auto overflow-hidden '>
+    className='md:w-full w-[80%] border border-black mx-auto overflow-hidden '>
         <div className='md:w-[70%] w-full    justify-center  mt-[35px] md:mt-[5%] mx-auto  gap-[20px] text-center '>
               <h1 className='text-[36px] font-semibold justify-center text-center text-[#004016]'>
                 Your Personal Assistant for Hassle-Free 
@@ -40,12 +40,12 @@ function HeroSection() {
                 src={heroSectionUser} 
                 alt="User Image"
                 style={{width:'410px',height:'410px'}}
-                className='relative   md:-mt-3 md:-right-[4%]'
+                className='relative   md:-mt-3 md:-right-[15%]'
                 />
                  <Image 
                 src={blur} 
                 alt="Blur Image"
-                className='md:absolute   md:mt-[22%]'
+                className='md:absolute w-[50%]   md:mt-[25%]'
                 />
                </div>
                 <Image

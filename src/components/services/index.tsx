@@ -6,7 +6,7 @@ import applicationReview from "../../assests/ApplicationReviewImg.png";
 
 function Services() {
   return (
-    <div id="services" className="lg:w-[85%] w-[92%] mt-9  rounded-3xl mx-auto bg-[#182D36] md:mt-[8%] lg:mt-[4%]">
+    <div id="services" className="lg:w-[85%] w-[92%] mt-9   rounded-3xl mx-auto bg-[#182D36] md:mt-[8%] lg:mt-[4%]">
       <div className="lg:w-[85%] w-[95%] mx-auto">
         {/* heading div  */}
         <div className="text-center ">
